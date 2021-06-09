@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url("./back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Roboto', sans-serif;
+}
+section.chat__section {
+    width: 600px;
+    max-width: 90%;
+    background-image: url("./body.jpg");
+    background-size: 100% 100%;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.brand {
+    padding: 20px;
+    background: #035f0b;
+    display: flex;
+    align-items: center;
+}
+.brand h1 {
+    font-size: 20px;
+    color: rgb(253, 251, 251);
+    margin-left: 10px;
+}
+
+.message__area{
+    height: 500px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.typing{
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: fit-content;
+    text-align: center;
+    background-color: #43f151;
+}
+.welcomePara{
+    align-self: center;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 8px #888888;
+    padding: 5px 10px;
+    background-color: #f143c5;
+}
+
+.joinedPara{
+    align-self: center;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 8px #888888;
+    padding: 5px 10px;
+    color: white;
+    background-color: #2218b4;
+}
+textarea {
+    width: 100%;
+    height: 49px;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background: #fcfbfb;
+}
+
+.message {
+    padding: 20px; 
+    margin-bottom: 40px;
+    max-width: 300px;
+    position: relative;
+}
+.incoming {
+    background: #750379;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 5px 5px 8px #750379;
+    color: rgb(210, 224, 12);  
+}
+.outgoing {
+    background: #1d9ed1;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 5px 5px 8px #1d9ed1;
+    color: #413222;
+    margin-left: auto;
+}
+
+.message h4{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.message h6{
+    font-size: 10px;
+    padding-bottom: 5px;
+}
