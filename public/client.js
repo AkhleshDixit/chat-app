@@ -1,6 +1,6 @@
 var socket = io();
 var textarea = document.querySelector('#textarea');
-var messageArea = document.querySelector('.message__area');
+var messageArea = document.querySelector('.message_area');
 
 let user;
 var para;

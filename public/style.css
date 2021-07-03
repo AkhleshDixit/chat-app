@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -9,23 +10,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 90vh;
-    /* height: 100%; */
     background-image: url("./back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
-section.chat__section {
+
+.chat_section {
     width: 600px;
-    max-width: 90%;
+    margin-top: 20px;
     background-image: url("./body.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
 }
 .brand {
-    position: sticky;
-    top: 0px;
     padding: 20px;
     background: #035f0b;
     display: flex;
@@ -38,7 +40,7 @@ section.chat__section {
     margin-left: 10px;
 }
 
-.message__area{
+.message_area{
     height: 500px;
     padding: 16px;
     display: flex;
@@ -71,14 +73,16 @@ section.chat__section {
     color: white;
     background-color: #2218b4;
 }
+
 textarea {
     width: 100%;
-    height: 49px;
+    height: 50px;
     border: none;
-    padding: 20px;
+    padding: 15px;
     font-size: 16px;
     outline: none;
     background: #fcfbfb;
+    resize: none;
 }
 
 .message {
@@ -116,14 +120,21 @@ textarea {
     padding-bottom: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-    section.chat__section{
+@media only screen and (max-width:500px) {
+    .chat_section{
+        position: relative;
+        margin-top: 0px;
         width: 100%;
-        max-width: 100%;
-        height: 100%;
-        max-width: 100%;
+        height: 100vh;
     }
-    .message__area{
-        height: 81.5vh;
+
+    .message_area{
+        height: 80%;
     }
-  }
+
+    .text_area {
+        position: fixed;
+        width: 100%;
+        bottom: 0%;
+    }
+}
