@@ -95,20 +95,20 @@ textarea {
     position: relative;
     font-size: small;
 }
+
 .incoming {
     background: #750379;
     border-top-right-radius: 8px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    box-shadow: 5px 5px 8px #750379;
     color: rgb(210, 224, 12);  
 }
+
 .outgoing {
     background: #1d9ed1;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
-    box-shadow: 5px 5px 8px #1d9ed1;
     color: #413222;
     margin-left: auto;
 }
