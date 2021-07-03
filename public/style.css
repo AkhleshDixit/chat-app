@@ -136,6 +136,16 @@ textarea {
         width: 100%;
     }
 
+    .brand img{
+        display: inline-block;
+        width: 10%;
+        height: 10%;
+    }
+
+    .brand h1 {
+        font-size: 15px;
+    }
+
     .message_area{
         height: 85vh;
     }
