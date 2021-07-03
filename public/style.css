@@ -27,6 +27,7 @@ body {
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     overflow: hidden;
 }
+
 .brand {
     padding: 20px;
     background: #035f0b;
@@ -34,6 +35,7 @@ body {
     align-items: center;
     z-index: 2;
 }
+
 .brand h1 {
     font-size: 20px;
     color: rgb(253, 251, 251);
@@ -128,8 +130,18 @@ textarea {
         height: 100vh;
     }
 
+    .brand {
+        position: fixed;
+        top: 0%;
+        width: 100%;
+    }
+
     .message_area{
-        height: 80%;
+        height: 90vh;
+    }
+
+    .welcomePara{
+        margin-top: 81px;
     }
 
     .text_area {
