@@ -10,7 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("./back.jpg");
+    background-image: url("./images/back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Roboto', sans-serif;
@@ -20,7 +20,7 @@ body {
 .chat_section {
     width: 600px;
     margin-top: 20px;
-    background-image: url("./body.jpg");
+    background-image: url("./images/body.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
